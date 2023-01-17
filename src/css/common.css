@@ -7,7 +7,7 @@ body {
     Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
+  background-color: #fafcfc;
   color: #212121;
   line-height: 1.5;
 }
@@ -16,3 +16,30 @@ img {
   display: block;
   max-width: 100%;
 }
+
+/* input {
+  display: block;
+  text-align: center;
+  margin: auto;
+  background-color: rgb(224, 227, 227);
+}
+
+button {
+  display: block;
+  margin: 10px auto 10px auto;
+}
+
+.field {
+  width: 80px;
+  height: 80px;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.value {
+  margin-right: 5px;
+} */
