@@ -1,13 +1,15 @@
 const body = document.querySelector('body');
 const btnStart = document.querySelector('[data-start]');
 const btnStop = document.querySelector('[data-stop]');
+b;
 // console.log(body);
 let intervalId = null;
 
-btnStop.setAttribute('disabled', true);
+// btnStop.setAttribute('disabled', true);
 
 btnStart.addEventListener('click', onStart);
 function onStart() {
+  btnStart.setAttribute('disabled', true);
   intervalId = setInterval(() => {
     body.style.backgroundColor = getRandomHexColor();
     btnStop.removeAttribute('disabled');
