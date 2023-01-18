@@ -1,7 +1,8 @@
 const body = document.querySelector('body');
 const btnStart = document.querySelector('[data-start]');
 const btnStop = document.querySelector('[data-stop]');
-console.log(body);
+// console.log(body);
+let intervalId = null;
 
 btnStop.setAttribute('disabled', true);
 
