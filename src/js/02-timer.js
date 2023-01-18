@@ -18,36 +18,54 @@ const dataSeconds = document.querySelector('[data-seconds]');
 //      ДОДАВАННЯ СТИЛІВ     //
 // --------------------------//
 function addStyles() {
-  input.style.display = 'block';
-  input.style.textAlign = 'center';
-  input.style.margin = 'auto';
-  input.style.backgroundColor = 'rgb(224, 227, 227)';
-  btn.style.display = 'block';
-  btn.style.margin = '10px auto 10px auto';
-  timer.style.display = 'flex';
-  timer.style.gap = '20px';
-  timer.style.justifyContent = 'center';
+  input.style.cssText =
+    'display: block, text-align: center, margin: auto, background-color: rgb(224, 227, 227)';
+  btn.style.cssText = 'display: block, margin: 10px auto 10px auto';
+  timer.style.cssText = 'display: flex, gap: 20px, justify-content: center';
+  dataDays.style.cssText =
+    'display: flex, justify-content: center, border: 1px solid black, min-width: `${70}px`, background-color: rgb(224, 227, 227)';
+  dataHours.style.cssText =
+    'display: flex, justify-content: center, border: 1px solid black, min-width: `${70}px`, background-color: rgb(224, 227, 227)';
+  dataMinutes.style.cssText =
+    'display: flex, justify-content: center, border: 1px solid black, min-width: `${70}px`, background-color: rgb(224, 227, 227)';
+  dataSeconds.style.cssText =
+    'display: flex, justify-content: center, border: 1px solid black, min-width: `${70}px`, background-color: rgb(224, 227, 227)';
 
-  dataDays.style.display = 'flex';
-  dataDays.style.justifyContent = 'center';
-  dataDays.style.border = `1px solid black`;
-  dataDays.style.minWidth = `${70}px`;
-  dataDays.style.backgroundColor = 'rgb(224, 227, 227)';
-  dataHours.style.display = 'flex';
-  dataHours.style.justifyContent = 'center';
-  dataHours.style.border = `1px solid black`;
-  dataHours.style.minWidth = `${70}px`;
-  dataHours.style.backgroundColor = 'rgb(224, 227, 227)';
-  dataMinutes.style.display = 'flex';
-  dataMinutes.style.justifyContent = 'center';
-  dataMinutes.style.border = `1px solid black`;
-  dataMinutes.style.minWidth = `${70}px`;
-  dataMinutes.style.backgroundColor = 'rgb(224, 227, 227)';
-  dataSeconds.style.display = 'flex';
-  dataSeconds.style.justifyContent = 'center';
-  dataSeconds.style.border = `1px solid black`;
-  dataSeconds.style.minWidth = `${70}px`;
-  dataSeconds.style.backgroundColor = 'rgb(224, 227, 227)';
+  // input.style.display = 'block';
+  // input.style.textAlign = 'center';
+  // input.style.margin = 'auto';
+  // input.style.backgroundColor = 'rgb(224, 227, 227)';
+
+  // btn.style.display = 'block';
+  // btn.style.margin = '10px auto 10px auto';
+
+  // timer.style.display = 'flex';
+  // timer.style.gap = '20px';
+  // timer.style.justifyContent = 'center';
+
+  // dataDays.style.display = 'flex';
+  // dataDays.style.justifyContent = 'center';
+  // dataDays.style.border = `1px solid black`;
+  // dataDays.style.minWidth = `${70}px`;
+  // dataDays.style.backgroundColor = 'rgb(224, 227, 227)';
+
+  // dataHours.style.display = 'flex';
+  // dataHours.style.justifyContent = 'center';
+  // dataHours.style.border = `1px solid black`;
+  // dataHours.style.minWidth = `${70}px`;
+  // dataHours.style.backgroundColor = 'rgb(224, 227, 227)';
+
+  // dataMinutes.style.display = 'flex';
+  // dataMinutes.style.justifyContent = 'center';
+  // dataMinutes.style.border = `1px solid black`;
+  // dataMinutes.style.minWidth = `${70}px`;
+  // dataMinutes.style.backgroundColor = 'rgb(224, 227, 227)';
+
+  // dataSeconds.style.display = 'flex';
+  // dataSeconds.style.justifyContent = 'center';
+  // dataSeconds.style.border = `1px solid black`;
+  // dataSeconds.style.minWidth = `${70}px`;
+  // dataSeconds.style.backgroundColor = 'rgb(224, 227, 227)';
 
   //   field.style.width = '80px';
   //   field.style.height = '80px';

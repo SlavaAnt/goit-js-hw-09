@@ -1,7 +1,6 @@
 const body = document.querySelector('body');
 const btnStart = document.querySelector('[data-start]');
 const btnStop = document.querySelector('[data-stop]');
-b;
 // console.log(body);
 let intervalId = null;
 
